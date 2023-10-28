@@ -52,20 +52,63 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">YouTubePD: A Multimodal Benchmark for Parkinson’s Disease Analysis</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
+                <a href="https://www.linkedin.com/in/andy-zhou-679376206/">Andy Zhou*</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/samuelwli/">Samuel Li*</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://psriram4.github.io/">Pranav Sriram*</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://ryanxli.github.io/">Xiang Li*</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/jiahua-dong-190431268/">Jiahua Dong*</a>, 
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/anshgs/">Ansh Sharma</a>, 
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=PtmjwooAAAAJ&hl=en">Yuanyi Zhong</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=h0YX9akAAAAJ&hl=en">Shirui Luo</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www.linkedin.com/in/maria-jaromin-64207936/">Maria Jaromin</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://users.ncsa.illinois.edu/kindr/">Volodymyr Kindratenko</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://healtheng.illinois.edu/people/georgeheintz">George Heintz</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://www2.osfhealthcare.org/providers/christopher-m-zallek-1465296">Christopher Zallek</a>,
+              </span>
+              <span class="author-block">
+                <a href="https://yxw.web.illinois.edu/">Yu-Xiong Wang</a>
+              </span>
+
+
+
+              <!-- <span class="author-block">
                 <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
                 <span class="author-block">
                   <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
                   <span class="author-block">
                     <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
-                  </span>
+                  </span> -->
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">University of Illinois Urbana-Champaign<br>NeurIPS Datasets and Benchmarks Track, 2023
+                    </span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -123,12 +166,11 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser video--
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video poster="" id="tree" autoplay controls muted loop height="100%">
-        <!-- Your video here -->
         <source src="static/videos/banner_video.mp4"
         type="video/mp4">
       </video>
@@ -138,7 +180,7 @@
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+>
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -148,7 +190,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            The healthcare and AI communities have witnessed a growing interest in the development of AI-assisted systems for automated diagnosis of Parkinson's Disease (PD), one of the most prevalent neurodegenerative disorders. However, the progress in this area has been significantly impeded by the absence of a unified, publicly available benchmark, which prevents comprehensive evaluation of existing PD analysis methods and the development of advanced models. This work overcomes these challenges by introducing YouTubePD -- the <em>first</em>  publicly available multimodal benchmark designed for PD analysis. We crowd-source existing videos featured with PD from YouTube, exploit multimodal information including <em>in-the-wild</em> videos, audio data, and facial landmarks across 200+ subject videos, and provide dense and diverse annotations from a clinical expert. Based on our benchmark, we propose three challenging and complementary tasks encompassing <em>both discriminative and generative</em> tasks, along with a comprehensive set of corresponding baselines. Experimental evaluation showcases the potential of modern deep learning and computer vision techniques, in particular the generalizability of the models developed on our YouTubePD to real-world clinical settings, while revealing their limitations. We hope our work paves the way for future research in this direction. 
           </p>
         </div>
       </div>
@@ -158,120 +200,6 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel1.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="MY ALT TEXT"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="MY ALT TEXT"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
-      <div class="columns is-centered has-text-centered">
-        <div class="column is-four-fifths">
-          
-          <div class="publication-video">
-            <!-- Youtube embed code here -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End youtube video -->
-
-
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <video poster="" id="video1" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <video poster="" id="video2" autoplay controls muted loop height="100%">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <video poster="" id="video3" autoplay controls muted loop height="100%">\
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4"
-            type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
 
 
 <!--BibTex citation -->
